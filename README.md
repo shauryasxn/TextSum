@@ -1,2 +1,2 @@
 # TextSum
-A simple project simplifying text summaries for everyone.
+A basic project simplifying text summaries for everyone.
