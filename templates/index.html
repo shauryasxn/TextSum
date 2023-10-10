@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>TextSum</title>
+</head>
+<body>
+    <header>
+        <h1>TextSum</h1>
+    </header>
+    <main>
+        <section class="input-section">
+            <h2>Input Text</h2>
+            <textarea id="input-text" rows="8" placeholder="Enter your text here..."></textarea>
+        </section>
+        <section class="output-section">
+            <h2>Summary</h2>
+            <div id="output-text"></div>
+        </section>
+    </main>
+    <button id="summarize-button">Summarize</button>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
